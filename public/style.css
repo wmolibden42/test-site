@@ -1,0 +1,88 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%; /* Занимает 90% ширины экрана */
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px; /* Уменьшаем размер шрифта */
+}
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px; /* Уменьшаем размер шрифта */
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px; /* Уменьшаем размер шрифта */
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Медиа-запрос для устройств с шириной экрана менее 768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%; /* Занимает 95% ширины экрана на меньших экранах */
+  }
+
+  form label {
+    font-size: 14px; /* Еще немного уменьшаем размер шрифта */
+  }
+
+  form input, form select {
+    font-size: 14px; /* Еще немного уменьшаем размер шрифта */
+  }
+
+  form button {
+    font-size: 14px; /* Еще немного уменьшаем размер шрифта */
+  }
+}
+
+#avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#avatar-container img {
+  width: 100px; /* Установите желаемую ширину изображений */
+  height: 100px; /* Установите желаемую высоту изображений */
+  margin: 5px;
+  cursor: pointer;
+}
+
+#user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#user-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#level-info {
+  margin-bottom: 20px;
+}
+
+#balance-info {
+  font-size: 20px;
+}

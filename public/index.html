@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>СТАВОК.НЕТ - Регистрация</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Регистрация</h1>
+    <form id="registration-form">
+      <label for="username">Имя:</label>
+      <input type="text" id="username" name="username" required>
+
+      <div id="avatar-container">
+        <img src="logo/logo-men1.png" alt="Man 1" data-value="avatar1.png">
+        <img src="logo/logo-men2.png" alt="Man 2" data-value="avatar2.png">
+        <img src="logo/logo-men3.png" alt="Man 3" data-value="avatar3.png">
+        <img src="logo/logo-woman1.png" alt="woman 3" data-value="avatar4.png">
+        <img src="logo/logo-woman2.png" alt="woman 3" data-value="avatar5.png">
+        <img src="logo/logo-woman3.png" alt="woman 3" data-value="avatar6.png">
+      </div>
+
+      <label for="last-game-time">Когда ты в последний раз играл?</label>
+      <input type="datetime-local" id="last-game-time" name="last-game-time" required>
+
+      <button type="submit">Зарегистрироваться</button>
+    </form>
+  </div>
+  <script type='module' src="script.js"></script>
+</body>
+</html>
